@@ -1,8 +1,6 @@
 name: Refresh
 on:
-  # performed every two hours, disabled by default, uncomment and modify as needed
-  # schedule:
-  #   - cron: "0 */2 * * *"
+  # performed every eight hours, disabled by default, uncomment and modify as needed
   workflow_dispatch:
 
 env:
