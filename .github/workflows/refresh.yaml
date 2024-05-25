@@ -1,6 +1,8 @@
 name: Refresh
 on:
   # performed every eight hours, disabled by default, uncomment and modify as needed
+  schedule:
+    - cron: '0 */8 * * *'  # 每隔8小时执行
   workflow_dispatch:
 
 env:
